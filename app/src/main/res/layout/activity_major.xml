@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/common_google_signin_btn_text_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Owen"
+        android:gravity="center"
+        android:fontFamily="georgia"
+        android:textSize="12sp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#272822"
+        android:textAllCaps="true"
+        android:paddingTop="12dp"
+        android:paddingBottom="4dp"
+        />
+
+    <SearchView
+        android:id="@+id/simpleSearchView"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:layout_below="@id/tv_welcome"
+        android:textColor="#272822"
+        android:focusedByDefault="false"
+        android:queryHint="@string/search" />
+
+    <TextView
+        android:id="@+id/tv_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_state"
+        android:fontFamily="georgia"
+        android:textSize="12sp"
+        android:layout_below="@id/simpleSearchView"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#272822"
+        android:textAllCaps="true"
+        android:paddingTop="22dp"
+        android:paddingBottom="4dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_date_today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="as at 09/2018 (MM/YYYY)"
+        android:fontFamily="georgia"
+        android:textSize="12sp"
+        android:layout_below="@id/tv_intro"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#272822"
+        android:textAllCaps="true"
+        android:paddingTop="12dp"
+        android:paddingBottom="4dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="georgia"
+        android:gravity="center"
+        android:layout_below="@id/tv_date_today"
+        android:paddingBottom="4dp"
+        android:paddingTop="12dp"
+        android:text="You will stop taking this medicine on 24/09/2018"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#272822"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/tv_end_date">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#272822"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next_medic"
+            android:fontFamily="georgia"
+            android:textSize="12sp"
+            android:layout_weight="6"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#7e7e7e"
+
+            android:textAllCaps="true"
+            android:paddingLeft="12dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="4dp"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#272822"
+            android:layout_weight="2"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/drugListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout"
+        android:stackFromBottom="true"
+        android:divider="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_drug"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

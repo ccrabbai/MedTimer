@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "572756947635",
+    "firebase_url": "https://medtimer-2f7f3.firebaseio.com",
+    "project_id": "medtimer-2f7f3",
+    "storage_bucket": "medtimer-2f7f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572756947635:android:48ef8aab4cd3bd01",
+        "android_client_info": {
+          "package_name": "com.example.android.medtimer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572756947635-commnktahj32jp3pu4a0omv6de2op1av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.medtimer",
+            "certificate_hash": "b0c4ee2f5da30cbe0e6b1408612a56b0f1352f38"
+          }
+        },
+        {
+          "client_id": "572756947635-l8m1klggc7jjb9nemh1hqqjpt0429qec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIJFtBFfkABXY-JWNb4XBjjsGbS1zPQOs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572756947635-l8m1klggc7jjb9nemh1hqqjpt0429qec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

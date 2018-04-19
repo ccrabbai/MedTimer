@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Communicate">
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addMedic"
+            android:icon="@drawable/add_medication"
+            android:title="Add Medication"/>
+        <item
+            android:id="@+id/editMedic"
+            android:icon="@drawable/edit_med"
+            android:title="Edit Medication"/>
+        <item
+            android:id="@+id/updateProfile"
+            android:icon="@drawable/edit_profile"
+            android:title="Update Profile"/>
+    </group>
+
+    <item android:title="Links">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>

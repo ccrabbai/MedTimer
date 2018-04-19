@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Med-Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_signout">Sign Out</string>
+    <string name="add_new_medic">Add a new medicine</string>
+    <string name="name_of_medic">Name of the medicine</string>
+    <string name="type_name_of_medic">Type the name of the medicine</string>
+    <string name="description">Description</string>
+    <string name="type_description">Describe the medicine</string>
+    <string name="start_time">Start time</string>
+    <string name="enter_start_time">Time to take the first medicine</string>
+    <string name="start_date">Start date</string>
+    <string name="enter_start_date">Enter the start date</string>
+    <string name="end_date">End date</string>
+    <string name="enter_end_date">Enter the end date</string>
+    <string name="interval_tv">Interval</string>
+    <string name="interval">When u will retake the drug(Hours)</string>
+    <string name="save">Save</string>
+    <string name="clear"> Clear all</string>
+
+    <string name="search">Search Drugs by name</string>
+    <string name="profile_state">This is the current state of your profile</string>
+    <string name="next_medic">Next Medication Timeline</string>
+    <string name="med_name_text">Name of medicine: </string>
+    <string name="due_time_text">Due time: </string>
+
+</resources>
